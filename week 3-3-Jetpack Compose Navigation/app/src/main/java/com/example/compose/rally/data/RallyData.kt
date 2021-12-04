@@ -37,9 +37,6 @@ data class Bill(
     val color: Color
 )
 
-/**
- * Pretend repository for user's data.
- */
 object UserData {
     val accounts: List<Account> = listOf(
         Account(

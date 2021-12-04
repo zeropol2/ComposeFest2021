@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.MainTestClock
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.unit.dp
@@ -32,7 +33,7 @@ import org.junit.Rule
 import org.junit.Test
 
 /**
- * Test to showcase [AnimationClockTestRule] present in [ComposeTestRule]. It allows for animation
+ * Test to showcase [MainTestClock] present in [ComposeTestRule]. It allows for animation
  * testing at specific points in time.
  *
  * For assertions, a simple screenshot testing framework is used. It requires SDK 26+ and to
